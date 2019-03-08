@@ -20,6 +20,7 @@ public class solrJDemo {
         doc.setField("id","1");
         doc.setField("name","李小龙");
         server.add(doc,1000);
+		system.out.println("哈哈哈");
 
     }
 
